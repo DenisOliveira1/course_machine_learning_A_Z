@@ -1,0 +1,8 @@
+ctrl+ i = inforçmações da função no spyder
+f1 = inforçmações da função no rstudio
+"""comment""" = comentário em bloco no python
+
+Ele sempre deixa no python o X como uma matriz e o Y como um vetor após dividir o dataset, segundo ele é uma boa pratica para evitar warnings e erros.
+
+PCA é não supervisionado
+LDA é supervisionado

@@ -1,0 +1,8 @@
+.RData
+.Rhistory
+dataset/
+__pycache__/
+.pyc
+__MACOSX/
+Resumo/
+*.zip

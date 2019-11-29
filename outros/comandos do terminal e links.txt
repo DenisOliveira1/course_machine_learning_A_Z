@@ -1,0 +1,8 @@
+* esconde (base) do terminado ubuntu
+conda config --set changeps1 False
+
+* instala a interface gráfica (anaconda navigator) depois de instalar o anaconda via .sh
+conda install -c anaconda anaconda-navigator 
+
+* link para o material do curso
+https://www.superdatascience.com/pages/machine-learning
