@@ -1,0 +1,52 @@
+Atalhos:
+
+f1 (em cima da função):
+Abre a definição da função
+
+ctrl + enter (selecionar um trecho de código e clicar em run ou ):
+Executa somente o trecho de código selecionado
+
+ctrl + l:
+Limpa o console
+
+ctrl + i:
+Idenda o código selecionado.
+Tamanho do tab pode ser definido em Options>Code
+
+-----------------------------------
+Menus:
+
+Session > Set working directory:
+Seleciona diretório de tra1balho
+
+-----------------------------------
+Comandos:
+
+getwd()
+setwd("caminho")
+
+str(dataset)
+head(dataset,5)
+tail(dataset,5)
+View(dataset)
+summary(dataset)
+summary(dataset$variavel)
+names(dataset)
+
+mean(dataset$variavel)
+mean(dataset$variavel, na.rm = TRUE)
+mean(dataset$variavel, trim = 0.1)
+weighted.mean(dataset$variavelA, w = dataset$variavelB)
+median(dataset$variavel, na.rm = TRUE)
+
+var(dataset$variavel)
+sd(dataset$variavel)
+
+percentile(dataset$variavel)
+quantile(dataset$variavel)
+IQR(dataset$variavel)
+range(dataset$variavel)
+diff(range(dataset$variavel))
+
+table(dataset$variavel) # agrupa dados da coluan e cotna a frequenncia em números
+prop.table(dataset$variavel) # agrupa dados da coluan e cotna a frequenncia em porcentagem
